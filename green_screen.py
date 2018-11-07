@@ -5,28 +5,34 @@ import matplotlib.pyplot as plt
 
 def main():
     
-    foreground_path = "testpath.png"
-    background_path = "testpath.png"
+    foreground_path = "test.png"
+    background_path = "test2.jpeg"
     
     
     foreground_image = read_image(foreground_path)
     background_image = read_image(background_path)
     
-    is_green = find_green(foreground_image)
+    print(foreground_image.shape)
+    print(background_image.shape)
     
-    final_image = merge_image(foreground_image, background_image, is_green)
+    #is_green = find_green(foreground_image)
     
-    display_image(foreground_image, final_image)
+    #final_image = merge_image(foreground_image, background_image, is_green)
+    
+    display_image(foreground_image, background_image)
     
 
 
 
 def read_image(path):
     
+    img = misc.face()
+    #misc.imsave(path, img)
+    img = misc.imread(path)
     
     
     #Returns image as a np array. 
-    return
+    return img
 
 
 def find_green(image):
@@ -45,7 +51,10 @@ def merge_image(image, background, green_area):
     
 def display_image(initial_image, final_image):
     
-    
+    plt.imshow(initial_image)
+    plt.show()
+    plt.imshow(final_image)
+    plt.show()
     #returns nothing lol
     return
 
