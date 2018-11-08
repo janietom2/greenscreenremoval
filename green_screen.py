@@ -49,7 +49,7 @@ def merge_image(image, background, green_area):
     #returns final image as a np array
     return
     
-def display_image(initial_image, final_image):
+def display_image(initial_image, fin    al_image):
     
     plt.imshow(initial_image)
     plt.show()
@@ -58,6 +58,13 @@ def display_image(initial_image, final_image):
     #returns nothing lol
     return
 
+def resize_image():
+    filename = "image.jpg"
+    new_image [][][] = resize_image()
+
+
 
 if __name__ == "__main__":
     main()
+
+# yeah python
