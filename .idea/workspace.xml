@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3886026-9725-489f-a1e7-a5b146843375" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testt.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/green_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/green_screen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +16,8 @@
       <file leaf-file-name="green_screen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/green_screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+            <state relative-caret-position="396">
+              <caret line="195" column="40" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -60,7 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
@@ -145,7 +138,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1440" height="841" extended-state="6" />
+    <frame x="-1" y="24" width="1440" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17986111" />
@@ -198,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/green_screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="195" column="40" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

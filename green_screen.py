@@ -163,7 +163,7 @@ def display_image(initial_image, final_image):
 
 window = Tk()
 window.title("Green Screen")
-window.geometry("600x150")
+window.geometry("600x200")
 window.resizable(False, False)
 window.configure(background='grey')
 
@@ -192,6 +192,8 @@ button_1.grid(row=3, column=0)
 label_4 = Label(window, text="Developed by: Victor Fernandez, Danner Pachecho & Jose Nieto", background="grey", justify="left")
 label_4.grid(row="4", column=0, ipady=(20))
 
+label_5 = Label(window, text="Repo: https://github.com/janietom2/greenscreenremoval", background="grey", justify="left")
+label_5.grid(row="5", column=0, ipady=(5))
 
 
 window.mainloop()
